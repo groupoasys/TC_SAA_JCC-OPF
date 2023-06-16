@@ -15,7 +15,7 @@ seed_case = range(10)[0]
 case      = ['24','57','73','118','300'][0]
 
 # Input Parameters
-data = copy.deepcopy(IP.parameters(case)) # Input CSV data related to the systems
+data = copy.deepcopy(IP.parameters(case)) # Input CSV data files related to the systems as class format
 data.epsilon = 0.05                       # Acceptable violation probability
 
 scenarios = pickle.load(open('Scenarios.pkl','rb'))
