@@ -6,29 +6,26 @@ The aim of this repository is to provide the details of the power systems data s
 
 ## Contents 🌌
 
-This repository includes the main code and data of the work in [[1]](https://arxiv.org/abs/2205.03370). The data is extracted from a [repository of power grids](https://github.com/power-grid-lib/pglib-opf).
+This repository includes the main data of the work in [[1]](https://arxiv.org/abs/2205.03370). This data is sourced and extracted from [a Library of IEEE PES Power Grid Benchmarks](https://github.com/power-grid-lib/pglib-opf).
 
-In the following links you can download the data related to generators, lines and loads of the different power systems used in this work, where each file is in ".csv" format.
-
+In the following links you can download the data related to generators, lines and loads of the different power systems where each file is in ".csv" format.
   * [IEEE-RTS-24](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-RTS-24)
   * [IEEE-57](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-57)
   * [IEEE-RTS-73](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-RTS-73)
   * [IEEE-118](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-118)
   * [IEEE-300](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-300)
 
-Next, we provide the scenarios of forecast error used and valid inequalities generated for each system in pickle format. Each pickle file contains dictionaries.
+Next, we provide the data generated for each experiment in pickle format. Each pickle file contains dictionaries.
+  * [Scenarios](https://drive.google.com/file/d/1mFTjQylx8EBrowXj5fln4pUGClRaJp-C/view?usp=sharing): Scenarios of forecast error.
+  * [Valid_Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/Valid_Inequalities): The generated valid inequalities after solving [Valid_Analysis](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/Valid_Analysis.py).py script.
 
-  * [Scenarios](https://drive.google.com/file/d/1mFTjQylx8EBrowXj5fln4pUGClRaJp-C/view?usp=sharing)
-  * [Valid_Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/Valid_Inequalities)
-
-The codes of the OPF model, of generating the valid inequalities and of the iterative coefficient algorithm are provided in the following Python scripts:
-
+Also, the repository includes Python scripts that encompass the codes for the OPF model, generating the valid inequalities, and implementing the iterative coefficient algorithm.
   * [OPF](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/MIP_JCC-OPF.py)
   * [Valid Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/Valid_Analysis.py)
   * [Iterative Coefficient Algorithm](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/tightening_screening.py)
 
 ## References 📚
-[1] Á. Porras, C. Domínguez, J. M. Morales and S. Pineda "Tight and Compact Sample Average Approximation of Joint Chance-cosntrained Problems with Applications to Optimal Power Flow," 2023.
+[1] Á. Porras, C. Domínguez, J. M. Morales and S. Pineda "Tight and Compact Sample Average Approximation of Joint Chance-constrained Problems with Applications to Optimal Power Flow," 2023.
 
 ## How to cite the repository and the paper? 📝
 
