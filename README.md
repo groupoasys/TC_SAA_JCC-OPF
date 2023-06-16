@@ -37,8 +37,8 @@ If you want to cite [this repository](https://github.com/groupoasys/TC_SAA_JCC-O
 @article{TCSAAJCCOPF2023,
 author = {OASYS},
 journal = {GitHub repository (https://github.com/groupoasys/TC{\_}SAA{\_}JCC-OPF)},
-title = {{Data and Code for the {SAA}-based Joint Chance-constrained {OPF}}},
-url = {https://github.com/groupoasys/TC{\_}SAA{\_}JCC-OPF},
+title = {{Data and Code for a Tight and Compact Model of the {SAA}-based Joint Chance-constrained {OPF}}},
+url = {https://github.com/groupoasys/TC_SAA_JCC-OPF},
 year = {2023}
 }
 ```
