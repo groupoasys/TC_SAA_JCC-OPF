@@ -1,5 +1,5 @@
 # Author: Alvaro Porras Cabrera
-# Generating valid inequalities
+# Generating valid inequalities for line-flow constraints. For generator constraints the procedure is reduced to order the parameter Omega.
 import Inputs_Parameters as IP
 import copy
 import pandas as pd
