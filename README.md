@@ -1,6 +1,6 @@
-# Data and Code of a Tight and Compact Model of the SAA-based Joint Chance-constrained OPF 🌩️
+# Tight and Compact Model of the SAA-based Joint Chance-constrained OPF 🚀
 
-## Goals 🚀
+## Goals 🖼️
 
 The aim of this repository is to provide the details of the power systems data set and code used in paper [[1]](https://arxiv.org/abs/2205.03370). This article have been developed by some members of the [OASYS group](https://sites.google.com/view/groupoasys/home) thanks to the funding of the project [Flexanalytics](https://groupoasysflexanalytics.readthedocs.io/en/latest/). We suggest you to visit the related links to know more our research 😉
 
@@ -8,7 +8,7 @@ The aim of this repository is to provide the details of the power systems data s
 
 This repository includes the main code and data of the work in [[1]](https://arxiv.org/abs/2205.03370). The data is extracted from a [repository of power grids](https://github.com/power-grid-lib/pglib-opf).
 
-In the next links, you can find data related to generators, lines and loads of the different power systems used in this work, where each file is in ``.csv`'' format.
+In the next links, you can find data related to generators, lines and loads of the different power systems used in this work, where each file is in ".csv" format.
 
   * [IEEE-RTS-24](https://drive.google.com/drive/folders/1bO0Zn1_U4spsLt_2FPnbdsLW4C78i_ZO?usp=sharing)
   * [IEEE-57](https://drive.google.com/drive/folders/1kO8rQRfdZKqfCArPLtQZNoMAiXTiBOrs?usp=sharing)
@@ -19,6 +19,11 @@ In the next links, you can find data related to generators, lines and loads of t
 
   * [Scenarios](https://drive.google.com/file/d/1mFTjQylx8EBrowXj5fln4pUGClRaJp-C/view?usp=sharing)
   * [Valid_Inequalities](https://drive.google.com/drive/folders/1UGhFqqvzIf7sk4MEgeJ1--cOvYBULubg?usp=sharing)
+
+The codes of the OPF model, of generating the valid inequalities and of the iterative coefficient algorithm are provided in the following Python scripts:
+  * [OPF]()
+  * [Valid Inequalities]()
+  * [Iterative Coefficient Algorithm]()
 
 ## References 📚
 [1] Á. Porras, C. Domínguez, J. M. Morales and S. Pineda "Tight and Compact Sample Average Approximation of Joint Chance-cosntrained Problems with Applications to Optimal Power Flow," 2023.
