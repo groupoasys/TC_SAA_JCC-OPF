@@ -8,7 +8,7 @@ The aim of this repository is to provide the details of the power systems data s
 
 This repository includes the main code and data of the work in [[1]](https://arxiv.org/abs/2205.03370). The data is extracted from a [repository of power grids](https://github.com/power-grid-lib/pglib-opf).
 
-In the next links, you can find data related to generators, lines and loads of the different power systems used in this work, where each file is in ".csv" format.
+In the following links you can download the data related to generators, lines and loads of the different power systems used in this work, where each file is in ".csv" format.
 
   * [IEEE-RTS-24](https://drive.google.com/drive/folders/1bO0Zn1_U4spsLt_2FPnbdsLW4C78i_ZO?usp=sharing)
   * [IEEE-57](https://drive.google.com/drive/folders/1kO8rQRfdZKqfCArPLtQZNoMAiXTiBOrs?usp=sharing)
@@ -16,11 +16,13 @@ In the next links, you can find data related to generators, lines and loads of t
   * [IEEE-118](https://drive.google.com/drive/folders/11X14_FxIf98eQvsDFQ0xjymZpXgR9SPy?usp=sharing)
   * [IEEE-300](https://drive.google.com/drive/folders/1fDDxe76KOYHGac9IoY9s4j5O7U-RGuvT?usp=sharing)
 
+Next, we provide the scenarios of forecast error used and valid inequalities generated for each system in pickle format. Each pickle file contains dictionaries.
 
   * [Scenarios](https://drive.google.com/file/d/1mFTjQylx8EBrowXj5fln4pUGClRaJp-C/view?usp=sharing)
   * [Valid_Inequalities](https://drive.google.com/drive/folders/1UGhFqqvzIf7sk4MEgeJ1--cOvYBULubg?usp=sharing)
 
 The codes of the OPF model, of generating the valid inequalities and of the iterative coefficient algorithm are provided in the following Python scripts:
+
   * [OPF](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/MIP_JCC-OPF.py)
   * [Valid Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/Valid_Analysis.py)
   * [Iterative Coefficient Algorithm](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/tightening_screening.py)
