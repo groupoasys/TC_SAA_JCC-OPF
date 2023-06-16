@@ -10,16 +10,16 @@ This repository includes the main code and data of the work in [[1]](https://arx
 
 In the following links you can download the data related to generators, lines and loads of the different power systems used in this work, where each file is in ".csv" format.
 
-  * [IEEE-RTS-24](https://drive.google.com/drive/folders/1bO0Zn1_U4spsLt_2FPnbdsLW4C78i_ZO?usp=sharing)
-  * [IEEE-57](https://drive.google.com/drive/folders/1kO8rQRfdZKqfCArPLtQZNoMAiXTiBOrs?usp=sharing)
-  * [IEEE-RTS-73](https://drive.google.com/drive/folders/1DVXbJ0h5zM5-bKg2UncwBBIW5-ftdd1R?usp=sharing)
-  * [IEEE-118](https://drive.google.com/drive/folders/11X14_FxIf98eQvsDFQ0xjymZpXgR9SPy?usp=sharing)
-  * [IEEE-300](https://drive.google.com/drive/folders/1fDDxe76KOYHGac9IoY9s4j5O7U-RGuvT?usp=sharing)
+  * [IEEE-RTS-24](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-RTS-24)
+  * [IEEE-57](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-57)
+  * [IEEE-RTS-73](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-RTS-73)
+  * [IEEE-118](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-118)
+  * [IEEE-300](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-300)
 
 Next, we provide the scenarios of forecast error used and valid inequalities generated for each system in pickle format. Each pickle file contains dictionaries.
 
   * [Scenarios](https://drive.google.com/file/d/1mFTjQylx8EBrowXj5fln4pUGClRaJp-C/view?usp=sharing)
-  * [Valid_Inequalities](https://drive.google.com/drive/folders/1UGhFqqvzIf7sk4MEgeJ1--cOvYBULubg?usp=sharing)
+  * [Valid_Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/Valid_Inequalities)
 
 The codes of the OPF model, of generating the valid inequalities and of the iterative coefficient algorithm are provided in the following Python scripts:
 
