@@ -8,7 +8,7 @@ The aim of this repository is to provide the details of the power systems data s
 
 This repository includes the main data of the work in [[1]](https://arxiv.org/abs/2205.03370). This data is sourced and extracted from [a Library of IEEE PES Power Grid Benchmarks](https://github.com/power-grid-lib/pglib-opf).
 
-In the following links you can download the data related to generators, lines and loads of the different power systems used in this work where each file is in ".csv" format.
+In the following links you can download the data related to generators, lines and loads of the different power systems used in this work where each file has extension of ".csv" format.
   * [IEEE-RTS-24](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-RTS-24)
   * [IEEE-57](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-57)
   * [IEEE-RTS-73](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/IEEE-RTS-73)
@@ -21,8 +21,8 @@ Also, the repository includes Python scripts that encompass the codes for the OP
   * [Iterative Coefficient Algorithm](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/tightening_screening.py)
 
 Finally, the repository provides the data generated for each experiment in pickle format.
-  * [Scenarios](https://drive.google.com/file/d/1mFTjQylx8EBrowXj5fln4pUGClRaJp-C/view?usp=sharing): This file contains the scenarios of forecast error where samples are drawn from a multivariate normal distribution. There are 10 different sets of randomly generated samples.
-  * [Valid_Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/Valid_Inequalities): The generated valid inequalities for the line constraints after solving [Valid_Analysis.py](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/Valid_Analysis.py) script. Each pickle file is a nested dictionary with 3 keys where the first key is the set of randomly generated samples (from 0 to 9), the second key refers to the type of line constraint (lower-bound constraint "min" and upper-bound constraint "max") and the third key corresponds to the line (from 0 to "number of lines"-1). Each value of the nested dictionary is a data frame that consist of the slope and intercept of each valid inequality.
+  * [Scenarios](https://drive.google.com/file/d/1mFTjQylx8EBrowXj5fln4pUGClRaJp-C/view?usp=sharing): This file contains the scenarios of forecast error where samples are drawn from a multivariate normal distribution. There are 10 different sets of randomly generated samples. This pickle contains a nested dictionary of 2 keys, where the first key refers to the system ('24', '57', '73', '118' and '300') and the second is the set of randomly generated samples (from 0 to 9). Each value of the nested dictionary is a data frame with "number scenarios"x"number of nodes".
+  * [Valid_Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/Valid_Inequalities): The generated valid inequalities for the line constraints after solving [Valid_Analysis.py](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/Valid_Analysis.py) script. Each pickle file is a nested dictionary with 3 keys, where the first key is the set of randomly generated samples (from 0 to 9), the second key refers to the type of line constraint (lower-bound constraint "min" and upper-bound constraint "max") and the third key corresponds to the line (from 0 to "number of lines"-1). Each value of the nested dictionary is a data frame that consists of the slope and intercept of each valid inequality.
 
 ## References 📚
 [1] Á. Porras, C. Domínguez, J. M. Morales and S. Pineda "Tight and Compact Sample Average Approximation of Joint Chance-constrained Problems with Applications to Optimal Power Flow," 2023.
