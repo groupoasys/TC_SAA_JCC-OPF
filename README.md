@@ -22,7 +22,7 @@ In the next links, you can find data related to generators, lines and loads of t
 
 The codes of the OPF model, of generating the valid inequalities and of the iterative coefficient algorithm are provided in the following Python scripts:
   * [OPF]()
-  * [Valid Inequalities]()
+  * [Valid Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/Valid_Analysis.py)
   * [Iterative Coefficient Algorithm]()
 
 ## References 📚
