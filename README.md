@@ -25,7 +25,7 @@ Finally, the repository provides the data generated for each experiment in pickl
   * [Valid_Inequalities](https://github.com/groupoasys/TC_SAA_JCC-OPF/tree/main/Data/Valid_Inequalities): The valid inequalities for the line-flow constraints were generated after running the [Valid_Analysis.py](https://github.com/groupoasys/TC_SAA_JCC-OPF/blob/main/Valid_Analysis.py) script. Each pickle file represents a nested dictionary with three keys: the first key corresponds to the index of the randomly generated sample set (ranging from 0 to 9), the second key refers to the type of line-flow constraint (either the lower-bound constraint denoted as 'min' or the upper-bound constraint denoted as 'max'), and the third key corresponds to the index of the line (ranging from 0 to 'number of lines'-1). Each value within the nested dictionary is a data frame containing the slope and intercept of each valid inequality.
 
 ## References 📚
-[1] Á. Porras, C. Domínguez, J. M. Morales and S. Pineda "Tight and Compact Sample Average Approximation of Joint Chance-constrained Problems with Applications to Optimal Power Flow," INFORMS Journal on Computing, 2023.
+[1] Á. Porras, C. Domínguez, J. M. Morales and S. Pineda "Tight and Compact Sample Average Approximation for Joint Chance-constrained Problems with Applications to Optimal Power Flow," INFORMS Journal on Computing, 2023.
 
 ## How to cite the repository and the paper? 📝
 
